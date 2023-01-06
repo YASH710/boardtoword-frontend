@@ -1,12 +1,78 @@
 body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .App {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    max-width: 700px;
+    height: 200px
+}
+
+.main-container .container-item {
+    width: 50%;
+    height: 100%;
+    margin-inline: 20px;
+    border: 1px solid #d1e6fb;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.download-container {
+    display: grid;
+    place-content: center;
+    height: 100%;
+    padding-inline: 15px;
+    text-align: center;
+    color: #0073ea;
+}
+
+.upload-container {
+    height: 100%;
+    background-color: #0073ea2e;
+    color: #0073ea;
+    gap: 15px;
+    padding-inline: 15px;
+}
+
+.upload-info-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.or-split-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.or-split-line div {
+    width: 20%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.or-split-line div:first-child,
+.or-split-line div:last-child {
+    width: 30%;
+    height: 1px;
+    background: #0073ea42;
+}
+
+.display-grid-center {
+    display: grid;
+    place-content: center;
 }

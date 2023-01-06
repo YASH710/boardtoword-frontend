@@ -14,7 +14,6 @@
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
-    "axios": "^1.2.2",
     "eslint-config-react-app": "^7.0.1",
     "monday-sdk-js": "^0.1.4",
     "monday-ui-react-core": "^1.54.0",
